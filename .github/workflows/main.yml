@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   build-and-deploy:
-    run-on: window-latest
+    runs-on: windows-latest
     steps:
     - uses: actions/checkout@master
     - name: Deploy to Azure Web App
